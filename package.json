@@ -1,8 +1,8 @@
 {
-  "name": "super-tools",
-  "version": "1.5.0",
-  "description": "前端业务代码工具库",
-  "main": "min/outils.min.js",
+  "name": "spuer-libs",
+  "version": "0.0.2",
+  "description": "js前端超级工具库合集",
+  "main": "src/index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "node script/build.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/proYang/outils.git"
+    "url": "git@github.com:libin1991/spuer-libs.git"
   },
   "keywords": [
     "util",

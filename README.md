@@ -1,4 +1,4 @@
-前端业务代码工具库  
+js前端超级工具库合集
 
 > 目的：高效率完成前端业务代码
 
@@ -26,7 +26,7 @@
 ---
 ### 浏览器:
 ```html
-  <script src="outils.min.js"></script>
+  <script src="super-tools.min.js"></script>
   <script>
       var OS = outils.getOS()
   </script>
@@ -34,14 +34,14 @@
 
 ### npm:
 ```bash
-$ npm install --save-dev outils
+$ npm install --save-dev spuer-libs
 ```
 
 webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const outils = require('outils')
+const outils = require('spuer-libs')
 const OS = outils.getOS()
 ```
 
