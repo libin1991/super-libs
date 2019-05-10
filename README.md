@@ -1,16 +1,30 @@
-## 前端业务代码工具库  
+前端业务代码工具库  
 
 > 目的：高效率完成前端业务代码
 
 业务开发过程中，会经常用到`日期格式化`、`url参数转对象`、`浏览器类型判断`、`节流函数`等常用函数，为避免不同项目多次复制粘贴的麻烦，这里统一封装，并发布到npm，以提高开发效率。如果你也有常用的代码，欢迎为本项目提交pr。
 
-## :building_construction:  安装使用
-
-1. 直接下载`min`目录下的[outils.min.js](/master/min/outils.min.js)使用，支持UMD通用模块规范  
-2. 使用npm安装
+----
+<p align="center">
+    <a href="#Array">Array</a>&nbsp;&nbsp;
+    <a href="#Class">Class</a>&nbsp;&nbsp;
+    <a href="#Cookie">Cookie</a>&nbsp;&nbsp;
+    <a href="#Device">Device</a>&nbsp;&nbsp;
+    <a href="#Dom">Dom</a>&nbsp;&nbsp;
+    <a href="#Function">Function</a>&nbsp;&nbsp;
+    <a href="#Keycode">Keycode</a>&nbsp;&nbsp;
+    <a href="#Object">Object</a>&nbsp;&nbsp;
+    <a href="#Random">Random</a>&nbsp;&nbsp;
+    <a href="#Regexp">Regexp</a>&nbsp;&nbsp;
+    <a href="#String">String</a>&nbsp;&nbsp;
+    <a href="#Support">Support</a>&nbsp;&nbsp;
+    <a href="#Time">Time</a>&nbsp;&nbsp;
+    <a href="#Url">Url</a>&nbsp;&nbsp;
+</p>
+----
 
 ### 浏览器:
-``` html
+```html
   <script src="outils.min.js"></script>
   <script>
       var OS = outils.getOS()
@@ -18,7 +32,7 @@
 ```
 
 ### npm:
-``` bash
+```bash
 $ npm install --save-dev outils
 ```
 
@@ -41,7 +55,7 @@ const OS = getOS()
 ## :package:  API文档
 
 ### Array  
-#### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
+####  &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
 
 ### Class
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
