@@ -3,7 +3,7 @@
  * @param {Any} values
  * @return {Any}
  */
-function deepClone(values) {
+export default function deepClone(values) {
     var copy;
 
     // Handle the 3 simple types, and null or undefined
@@ -36,5 +36,3 @@ function deepClone(values) {
 
     throw new Error("Unable to copy values! Its type isn't supported.");
 }
-
-module.exports = deepClone

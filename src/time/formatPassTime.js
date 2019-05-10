@@ -3,7 +3,7 @@
  * @param  {Date} startTime 
  * @return {String}
  */
-function formatPassTime(startTime) {
+export default function formatPassTime(startTime) {
     var currentTime = Date.parse(new Date()),
         time = currentTime - startTime,
         day = parseInt(time / (1000 * 60 * 60 * 24)),
@@ -18,5 +18,3 @@ function formatPassTime(startTime) {
     if (min) return min + "分钟前"
     else return '刚刚'
 }
-
-module.exports = formatPassTime

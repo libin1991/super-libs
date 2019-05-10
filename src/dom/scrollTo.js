@@ -1,5 +1,6 @@
-var getScrollTop = require('./getScrollTop');
-var setScrollTop = require('./setScrollTop');
+import getScrollTop from "./getScrollTop"
+import setScrollTop from "./setScrollTop"
+
 var requestAnimFrame = (function () {
     return window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
@@ -14,7 +15,7 @@ var requestAnimFrame = (function () {
  * @param {Number} to 
  * @param {Number} duration 
  */
-function scrollTo(to, duration) {
+export default function scrollTo(to, duration) {
     if (duration < 0) {
         setScrollTop(to);
         return
@@ -35,5 +36,3 @@ function scrollTo(to, duration) {
             scrollTo(to, duration - 16);
         });
 }
-
-module.exports = scrollTo;

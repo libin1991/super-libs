@@ -1,5 +1,4 @@
-var throttle = require('./throttle');
-
+import throttle from "./throttle"
 /**
  * @desc 函数防抖 
  * 与throttle不同的是，debounce保证一个函数在多少毫秒内不再被触发，只会执行一次，
@@ -14,7 +13,7 @@ var throttle = require('./throttle');
  *
  * @return {Function} 新的防抖函数。
  */
-function debounce(delay, atBegin, callback) {
-    return callback === undefined ? throttle(delay, atBegin, false) : throttle(delay, callback, atBegin !== false);
-};
-module.exports = debounce;
+export default function debounce(delay, atBegin, callback) {
+    return callback === undefined ? throttle(delay, atBegin, false)
+                                    : throttle(delay, callback, atBegin !== false);
+}

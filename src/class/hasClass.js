@@ -5,8 +5,6 @@
  * @param {String} cls 
  * @return {Boolean}
  */
-function hasClass(ele, cls) {
+export default function hasClass(ele, cls) {
     return (new RegExp('(\\s|^)' + cls + '(\\s|$)')).test(ele.className);
 }
-
-module.exports = hasClass;

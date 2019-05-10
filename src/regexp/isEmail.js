@@ -4,8 +4,6 @@
  * @param  {String}  str
  * @return {Boolean} 
  */
-function isEmail(str) {
+export default function isEmail(str) {
     return /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/.test(str);
 }
-
-module.exports = isEmail;

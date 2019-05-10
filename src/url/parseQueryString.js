@@ -4,7 +4,7 @@
  * @param  {String} url  default: window.location.href
  * @return {Object} 
  */
-function parseQueryString(url) {
+export default function parseQueryString(url) {
     url = !url ? window.location.href : url;
     if(url.indexOf('?') === -1) {
         return {};
@@ -21,5 +21,3 @@ function parseQueryString(url) {
     }
     return query;
 }
-
-module.exports = parseQueryString
