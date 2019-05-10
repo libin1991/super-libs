@@ -1,5 +1,5 @@
 {
-  "name": "outils",
+  "name": "super-tools",
   "version": "1.5.0",
   "description": "前端业务代码工具库",
   "main": "min/outils.min.js",
@@ -19,8 +19,7 @@
     "tool",
     "common-util"
   ],
-  "author": "SlaneYang",
-  "license": "MIT",
+   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
