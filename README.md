@@ -6,7 +6,7 @@
 
 ## :building_construction:  安装使用
 
-1. 直接下载`min`目录下的[outils.min.js](https://github.com/proYang/outils/blob/master/min/outils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[outils.min.js](/master/min/outils.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
@@ -104,51 +104,51 @@ const OS = getOS()
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/proYang/outils/blob/master/src/array/arrayEqual.js
+[arrayEqual]:/master/src/array/arrayEqual.js
 
-[addClass]:https://github.com/proYang/outils/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/proYang/outils/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/proYang/outils/blob/master/src/class/removeClass.js
+[addClass]:/master/src/class/addClass.js
+[hasClass]:/master/src/class/hasClass.js
+[removeClass]:/master/src/class/removeClass.js
 
-[getCookie]:https://github.com/proYang/outils/blob/master/src/cookie/getCookie.js
-[removeCookie]:https://github.com/proYang/outils/blob/master/src/cookie/removeCookie.js
-[setCookie]:https://github.com/proYang/outils/blob/master/src/cookie/setCookie.js
+[getCookie]:/master/src/cookie/getCookie.js
+[removeCookie]:/master/src/cookie/removeCookie.js
+[setCookie]:/master/src/cookie/setCookie.js
 
-[getExplore]:https://github.com/proYang/outils/blob/master/src/device/getExplore.js
-[getOS]:https://github.com/proYang/outils/blob/master/src/device/getOS.js
+[getExplore]:/master/src/device/getExplore.js
+[getOS]:/master/src/device/getOS.js
 
-[getScrollTop]:https://github.com/proYang/outils/blob/master/src/dom/getScrollTop.js
-[offset]:https://github.com/proYang/outils/blob/master/src/dom/offset.js
-[scrollTo]:https://github.com/proYang/outils/blob/master/src/dom/scrollTo.js
-[setScrollTop]:https://github.com/proYang/outils/blob/master/src/dom/setScrollTop.js
-[windowResize]:https://github.com/proYang/outils/blob/master/src/dom/windowResize.js
+[getScrollTop]:/master/src/dom/getScrollTop.js
+[offset]:/master/src/dom/offset.js
+[scrollTo]:/master/src/dom/scrollTo.js
+[setScrollTop]:/master/src/dom/setScrollTop.js
+[windowResize]:/master/src/dom/windowResize.js
 
-[debounce]:https://github.com/proYang/outils/blob/master/src/function/debounce.js
-[throttle]:https://github.com/proYang/outils/blob/master/src/function/throttle.js
+[debounce]:/master/src/function/debounce.js
+[throttle]:/master/src/function/throttle.js
 
-[getKeyName]:https://github.com/proYang/outils/blob/master/src/keycode/getKeyName.js
+[getKeyName]:/master/src/keycode/getKeyName.js
 
-[deepClone]:https://github.com/proYang/outils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/proYang/outils/blob/master/src/object/isEmptyObject.js
+[deepClone]:/master/src/object/deepClone.js
+[isEmptyObject]:/master/src/object/isEmptyObject.js
 
-[randomColor]:https://github.com/proYang/outils/blob/master/src/random/randomColor.js
-[randomNum]:https://github.com/proYang/outils/blob/master/src/random/randomNum.js
+[randomColor]:/master/src/random/randomColor.js
+[randomNum]:/master/src/random/randomNum.js
 
-[isColor]:https://github.com/proYang/outils/blob/master/src/regexp/isColor.js
-[isEmail]:https://github.com/proYang/outils/blob/master/src/regexp/isEmail.js
-[isIdCard]:https://github.com/proYang/outils/blob/master/src/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/proYang/outils/blob/master/src/regexp/isPhoneNum.js
-[isUrl]:https://github.com/proYang/outils/blob/master/src/regexp/isUrl.js
+[isColor]:/master/src/regexp/isColor.js
+[isEmail]:/master/src/regexp/isEmail.js
+[isIdCard]:/master/src/regexp/isIdCard.js
+[isPhoneNum]:/master/src/regexp/isPhoneNum.js
+[isUrl]:/master/src/regexp/isUrl.js
 
-[digitUppercase]:https://github.com/proYang/outils/blob/master/src/string/digitUppercase.js
+[digitUppercase]:/master/src/string/digitUppercase.js
 
-[isSupportWebP]:https://github.com/proYang/outils/blob/master/src/support/isSupportWebP.js
+[isSupportWebP]:/master/src/support/isSupportWebP.js
 
-[formatPassTime]:https://github.com/proYang/outils/blob/master/src/time/formatPassTime.js
-[formatRemainTime]:https://github.com/proYang/outils/blob/master/src/time/formatRemainTime.js
-[isLeapYear]:https://github.com/proYang/outils/blob/master/src/time/isLeapYear.js
-[isSameDay]:https://github.com/proYang/outils/blob/master/src/time/isSameDay.js
-[timeLeft]:https://github.com/proYang/outils/blob/master/src/time/timeLeft.js
+[formatPassTime]:/master/src/time/formatPassTime.js
+[formatRemainTime]:/master/src/time/formatRemainTime.js
+[isLeapYear]:/master/src/time/isLeapYear.js
+[isSameDay]:/master/src/time/isSameDay.js
+[timeLeft]:/master/src/time/timeLeft.js
 
-[parseQueryString]:https://github.com/proYang/outils/blob/master/src/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/proYang/outils/blob/master/src/url/stringfyQueryString.js
+[parseQueryString]:/master/src/url/parseQueryString.js
+[stringfyQueryString]:/master/src/url/stringfyQueryString.js
