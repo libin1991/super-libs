@@ -4,7 +4,8 @@
 
 业务开发过程中，会经常用到`日期格式化`、`url参数转对象`、`浏览器类型判断`、`节流函数`等常用函数，为避免不同项目多次复制粘贴的麻烦，这里统一封装，并发布到npm，以提高开发效率。如果你也有常用的代码，欢迎为本项目提交pr。
 
-----
+---
+
 <p align="center">
     <a href="#Array">Array</a>&nbsp;&nbsp;
     <a href="#Class">Class</a>&nbsp;&nbsp;
@@ -19,10 +20,10 @@
     <a href="#String">String</a>&nbsp;&nbsp;
     <a href="#Support">Support</a>&nbsp;&nbsp;
     <a href="#Time">Time</a>&nbsp;&nbsp;
-    <a href="#Url">Url</a>&nbsp;&nbsp;
+    <a href="#Url">Url</a>
 </p>
-----
 
+---
 ### 浏览器:
 ```html
   <script src="outils.min.js"></script>
