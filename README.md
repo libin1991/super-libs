@@ -4,7 +4,7 @@
 
 ### npm:
 ```bash
-$ cnpm install --save-dev spuer-libs
+$ cnpm install -D spuer-libs
 ```
 
 ### 使用
@@ -45,7 +45,7 @@ console.log(getOS());
 ## API文档
 
 ### Array  
-####  &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
+-  [arrayEqual]判断两个数组是否相等 
 
 ### Class
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
