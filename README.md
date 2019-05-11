@@ -42,7 +42,7 @@ console.log(getOS());
 
 
 
-## :package:  API文档
+## API文档
 
 ### Array  
 ####  &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
