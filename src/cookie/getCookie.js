@@ -4,7 +4,7 @@
  * @param  {String} name 
  * @return {String}
  */
-export default function getCookie(name) {
+function getCookie(name) {
     var arr = document.cookie.replace(/\s/g, "").split(';');
     for (var i = 0; i < arr.length; i++) {
         var tempArr = arr[i].split('=');
@@ -14,3 +14,5 @@ export default function getCookie(name) {
     }
     return '';
 }
+
+module.exports = getCookie

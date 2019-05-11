@@ -4,7 +4,7 @@
  * @param  {Object} obj 
  * @return {String}
  */
-export default function stringfyQueryString(obj) {
+function stringfyQueryString(obj) {
     if (!obj) return '';
     var pairs = [];
 
@@ -23,3 +23,5 @@ export default function stringfyQueryString(obj) {
 
     return pairs.join('&');
 }
+
+module.exports = stringfyQueryString

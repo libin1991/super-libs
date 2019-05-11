@@ -4,7 +4,7 @@
  * @param  {Date} endTime  
  * @return {String}
  */
-export default function formatRemainTime(endTime) {
+function formatRemainTime(endTime) {
     var startDate = new Date(); //开始时间
     var endDate = new Date(endTime); //结束时间
     var t = endDate.getTime() - startDate.getTime(); //时间差
@@ -20,3 +20,5 @@ export default function formatRemainTime(endTime) {
     }
     return d + "天 " + h + "小时 " + m + "分钟 " + s + "秒";
 }
+
+module.exports = formatRemainTime

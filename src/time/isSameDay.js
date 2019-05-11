@@ -4,7 +4,7 @@
  * @param  {Date} date2 可选／默认值：当天
  * @return {Boolean}
  */
-export default function isSameDay(date1, date2) {
+function isSameDay(date1, date2) {
     if (!date2) {
         date2 = new Date();
     }
@@ -18,3 +18,5 @@ export default function isSameDay(date1, date2) {
     return date1_date === date2_date && date1_month === date2_month && date1_year === date2_year;
 
 }
+
+module.exports = isSameDay

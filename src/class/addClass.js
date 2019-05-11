@@ -5,10 +5,13 @@
  * @param  {String} cls 
  */
 
-import hasClass from "./hasClass"
+var hasClass = require('./hasClass');
 
-export default function addClass(ele, cls) {
+function addClass(ele, cls) {
     if (!hasClass(ele, cls)) {
         ele.className += ' ' + cls;
     }
 }
+
+
+module.exports = addClass;

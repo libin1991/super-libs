@@ -41,7 +41,7 @@ webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const outils = require('spuer-libs')
+const outils = require('super-libs')
 const OS = outils.getOS()
 ```
 
@@ -53,6 +53,7 @@ const OS = outils.getOS()
 const getOS = require('outils/getOS')
 const OS = getOS()
 ```
+
 ## :package:  API文档
 
 ### Array  

@@ -5,11 +5,12 @@
  * @param {String} cls 
  */
 
-import hasClass from "./hasClass"
+var hasClass = require('./hasClass');
 
-export default function removeClass(ele, cls) {
+function removeClass(ele, cls) {
     if (hasClass(ele, cls)) {
         var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
         ele.className = ele.className.replace(reg, ' ');
     }
 }
+module.exports = removeClass;

@@ -6,7 +6,7 @@
  * @param {Function} upCb 当软键盘弹起的回调
  */
 
-export default function windowResize(downCb, upCb) {
+function windowResize(downCb, upCb) {
 	var clientHeight = window.innerHeight;
 	downCb = typeof downCb === 'function' ? downCb : function () {}
 	upCb = typeof upCb === 'function' ? upCb : function () {}
@@ -21,4 +21,4 @@ export default function windowResize(downCb, upCb) {
 	});
 }
 
- 
+module.exports = windowResize;

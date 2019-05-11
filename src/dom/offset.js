@@ -4,7 +4,7 @@
  * @param {HTMLElement} ele 
  * @returns { {left: number, top: number} }
  */
-export default function offset(ele) {
+function offset(ele) {
     var pos = {
         left: 0,
         top: 0
@@ -16,3 +16,5 @@ export default function offset(ele) {
     };
     return pos;
 }
+
+module.exports = offset;

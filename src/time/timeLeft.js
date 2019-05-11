@@ -4,7 +4,7 @@
  * @param { Date | String } endTime
  * @returns { Object } { d, h, m, s } 天 时 分 秒
  */
-export default function timeLeft(startTime, endTime) {
+function timeLeft(startTime, endTime) {
     if (!startTime || !endTime) {
         return
     }
@@ -32,3 +32,5 @@ export default function timeLeft(startTime, endTime) {
     }
     return { d, h, m, s }
 }
+
+module.exports = timeLeft;

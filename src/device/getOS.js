@@ -3,7 +3,7 @@
  * @desc 获取操作系统类型
  * @return {String} 
  */
-export default function getOS() {
+function getOS() {
     var userAgent = 'navigator' in window && 'userAgent' in navigator && navigator.userAgent.toLowerCase() || '';
     var vendor = 'navigator' in window && 'vendor' in navigator && navigator.vendor.toLowerCase() || '';
     var appVersion = 'navigator' in window && 'appVersion' in navigator && navigator.appVersion.toLowerCase() || '';
@@ -15,3 +15,5 @@ export default function getOS() {
     if (/win/i.test(appVersion)) return 'windows'
     if (/linux/i.test(appVersion)) return 'linux'
 }
+
+module.exports = getOS;
