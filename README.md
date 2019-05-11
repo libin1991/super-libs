@@ -1,4 +1,4 @@
-<center>js前端超级工具库合集</center>
+### <p align="center"> JS前端超级工具库合集</p> ###
 
 > 目的：高效率完成前端业务代码
 
