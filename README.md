@@ -4,7 +4,7 @@
 
 ### npm:
 ```bash
-$ cnpm install -D spuer-libs
+$ cnpm install -D super-libs
 ```
 
 ### 使用
