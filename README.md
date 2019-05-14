@@ -107,3 +107,4 @@ console.log(getOS());
 ### Url
 - parseQueryStringurl参数转对象
 - stringfyQueryString对象序列化
+- getQueryStringObject  格式化 URL 查询字符串返回对象 URL: https://matiji.cn/path?a=z&b=y&c=x  ->  { a: z, b: y: c: x }
