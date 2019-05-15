@@ -1,3 +1,6 @@
+// URL: https://matiji.cn/path?a=z&b=y&c=x
+// { a: z, b: y: c: x }
+
 const reg = /([^?&=]+)=([^&]+)/g;
 
 function getQueryStringObject() {
@@ -6,10 +9,7 @@ function getQueryStringObject() {
     return q;
 }
 
-getQueryStringObject();
 
-// URL: https://matiji.cn/path?a=z&b=y&c=x
-// { a: z, b: y: c: x }
 
 
 module.exports =  getQueryStringObject
