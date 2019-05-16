@@ -71,6 +71,7 @@ console.log(getOS());
 ### Function  
 - debounce函数防抖   
 - throttle函数节流   
+- EventBus 事件总线
 
 ### Keycode  
 - getKeyName根据keycode获得键名 
